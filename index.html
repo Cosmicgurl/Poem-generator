@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <title>Poem generator</title>
 </head>
 <body>
@@ -15,14 +16,11 @@
     <h1>Sweet poem generator</h1>
   </header>
   <main>
-    <form action="">
+    <form action="submit" id="poem-generator-form">
       <input type="text" placeholder="Enter your favourite kind of poem..." autofocus required class="prompt">
       <input type="submit" class="submit-button"/>
     </form>
-    <div class="poem">
-      Roses are red 
-    </br>
-    Violettes are blue
+    <div class="poem" id="poem">
     </div>
   </main>
   <footer>
