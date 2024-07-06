@@ -4,18 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Poem generator</title>
 </head>
 <body>
+  <div class="container">
   <header>
     <h1>Sweet poem generator</h1>
   </header>
   <main>
     <form action="">
-      <input type="text" placeholder="Enter your favourite kind of poem..." autofocus required>
-      <input type="submit" />
+      <input type="text" placeholder="Enter your favourite kind of poem..." autofocus required class="prompt">
+      <input type="submit" class="submit-button"/>
     </form>
-    <div>
+    <div class="poem">
       Roses are red 
     </br>
     Violettes are blue
@@ -24,6 +28,8 @@
   <footer>
     This page was coded by Natalie and it's opensoureced on <a href="https://github.com/Cosmicgurl/Poem-generator"target=_blank>Github</a> and <a href="https://ai-sweet-poems-generator.netlify.app/"target=_blank>Netlify</a>.
   </footer>
+
   <script src="src/index.js"></script>
+</div>
 </body>
 </html>
