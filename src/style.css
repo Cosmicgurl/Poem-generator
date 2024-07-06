@@ -47,6 +47,9 @@ font-size: 15px;
   font-size: 15px;
   box-shadow: 10px 10px 20px rgba(176, 118, 128, 0.1);
 }
+.poem strong{
+  color: rgb(209, 140, 151);
+}
 footer {
   text-align: center;
   font-size: 13px;

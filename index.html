@@ -6,8 +6,10 @@
   <link rel="stylesheet" href="src/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
   <title>Poem generator</title>
 </head>
 <body>
@@ -17,7 +19,7 @@
   </header>
   <main>
     <form action="submit" id="poem-generator-form">
-      <input type="text" placeholder="Enter your favourite kind of poem..." autofocus required class="prompt">
+      <input type="text" placeholder="Enter your favourite kind of poem..." autofocus required class="prompt"id="generated-poem">
       <input type="submit" class="submit-button"/>
     </form>
     <div class="poem" id="poem">
