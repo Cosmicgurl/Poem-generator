@@ -23,10 +23,6 @@ function generatePoem(event){
 </div>`;
 
   axios.get(apiUrl).then(displayPoem);
-
-console.log("#generated-poem");
-console.log(`${prompt}`);
-console.log(`${context}`);
 }
 
 
