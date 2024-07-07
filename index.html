@@ -18,11 +18,14 @@
     <h1>Sweet poem generator</h1>
   </header>
   <main>
+    <div class="form-wrapper">
     <form action="submit" id="poem-generator-form">
       <input type="text" placeholder="Enter your favourite kind of poem..." autofocus required class="prompt"id="generated-poem">
       <input type="submit" class="submit-button"/>
     </form>
-    <div class="poem" id="poem">
+    <div class="suggestions">i.e. love, honey, flowers, spring...</div>
+  </div>
+    <div class="poem hidden" id="poem">
     </div>
   </main>
   <footer>
